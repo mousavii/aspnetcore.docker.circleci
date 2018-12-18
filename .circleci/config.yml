@@ -13,4 +13,4 @@ jobs:
           command: dotnet build .
       - run:
           name: Run tests 
-          command: dotnet test --no-build --logger "trx;LogFileName=../../../xunit-output.xml" test
+          command: dotnet test --no-build --logger "trx;LogFileName=../../../xunit-output.xml" adc.tests
